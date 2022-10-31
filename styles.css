@@ -1,19 +1,6 @@
-/*
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557 */
-
-
-
 body {
-    margin: 0px;
+    margin: 0;
     text-align: center;
-}
- h1, h2, h3, h4, p{
-    margin: 0; 
 }
 #hero{
     background-image: url("images/torshov.jpg");
@@ -26,31 +13,26 @@ body {
 }
 #visit{
     background: #457B9D;
-    margin: 21px 0;
     width: 201px;
-    height: 34px;
-    left: 259px;
-    top: 122px;
-    font-family: 'Arial';
-    font-style: normal;
+    height: 40px;
+    font-family: monospace;
+    font-style: italic;
     font-weight: 700;
     font-size: 32px;
-    line-height: 37px;
 }
 #enjoy{
     background: #1D3557;
-    width: 355px;
-    height: 39px;
-    left: 182px;
-    top: 177px;
-    font-family: 'Arial';
-    font-style: normal;
+    width: 400px;
+    height: 70px;
+    font-family: monospace;
+    font-style: italic;
     font-weight: 700;
     font-size: 18.72px;
-    line-height: 22px;
+ }
+ .color{
+    background: linear-gradient(#B7DBF9, #D64933) ;
  }
 #activities{
-    background: #F1FAEE;
     padding-top: 40px;
     color: #1D3557;
 }
@@ -62,81 +44,73 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 54px 0 18px 0;
+    padding: 54px 0 18px 0;
 }
 h5{
     width: 183px;
     height: 32px;
-    left: 41px;
-    top: 236px;
     color: #1D3557;
     font-family: 'Arial';
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
 }
 h6{
     width: 198px;
     height: 55px;
-    left: 34px;
-    top: 285px;
     color: #1D3557;
     font-family: 'Arial';
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
 }
 #guide{
     background: #A8DADC;
-    padding: 50px 0 50px 0; 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border: 1px solid #A8DADC;
     border-radius: 10px;
     margin: 50px 160px 50px 160px; 
-    padding: 23px 17px 23px 13px; 
-    box-shadow: 0px 6px 0px #1D3557;
+    padding: 25px 20px 25px 20px; 
+    border-bottom: 5px solid #1D3557;
 }
 #pic{
-    width: 130px;
-    height: 190px;
+    width: 150px;
+    height: 200px;
     border-radius: 10px;
     margin-right: 7px;
 }
 #your{
     width: 207px;
     height: 32px;
-    left: 349px;
-    top: 99px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
     margin-bottom:14px; 
+    margin-left: 20px;
 }
 #show{
     width: 189px;
     height: 71px;
-    left: 360px;
-    top: 145px;
     font-family: 'Arial';
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
     margin-bottom: 26px;
+    margin-left: 20px;
 }
 #name{
     width: 189px;
     height: 18px;
-    left: 358px;
-    top: 242px;
     font-family: 'Arial';
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
+    margin-left: 20px;
 }
